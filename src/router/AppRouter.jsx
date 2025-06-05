@@ -1,4 +1,4 @@
-import { Routes } from "react-router-dom"
+import { Route, Routes } from "react-router-dom"
 
 export const AppRouter = () => {
 
@@ -10,12 +10,12 @@ export const AppRouter = () => {
 
     return (
         <Routes>
-            <Route path="/" element={<HomePage />} />
+            {/* <Route path="/" element={<HomePage />} />
             <Route path="/projects" element={<ProjectsPage />} />
             <Route path="/about" element={<AboutPage />} />
-            <Route path="/contact" element={<ContactPage />} />
+            <Route path="/contact" element={<ContactPage />} /> */}
             {/* Add more routes as needed */}
-            <Route path="*" element={<NotFound />} />
+            {/* <Route path="*" element={<NotFound />} /> */}
             {/* TODO: Add a catch-all route for 404 Not Found */}
         </Routes>
     )
