@@ -95,7 +95,7 @@ export const HomePage = () => {
                         <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
                             Hola, soy{" "}
                             <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent animate-pulse">
-                                [Tu Nombre]
+                                Juan Pa
                             </span>
                         </h1>
                         <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8 leading-relaxed">
