@@ -24,16 +24,16 @@ export const HomePage = () => {
 
     const skills = [
         "React",
-        "Next.js",
+        "NextJS",
         "TypeScript",
         "TailwindCSS",
         "Node.js",
-        "MongoDB",
-        "GraphQL",
+        "Laravel",
+        "PostgreSQL",
+        "Firebase",
         "Docker",
-        "AWS",
         "Git",
-        "Figma",
+        "JavaScript",
         "Vite",
     ];
 
@@ -99,12 +99,12 @@ export const HomePage = () => {
                             </span>
                         </h1>
                         <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8 leading-relaxed">
-                            <span className="font-semibold">Frontend Developer</span> especializado
-                            en crear experiencias digitales excepcionales
+                            <span className="font-semibold">Desarrollador Full-stack</span> con enfoque en frontend,
+                            especializado en crear experiencias web modernas y escalables
                         </p>
                         <p className="text-lg text-gray-500 dark:text-gray-400 max-w-2xl mx-auto mb-12">
-                            Transformo ideas en interfaces modernas, rápidas y atractivas usando las
-                            últimas tecnologías
+                            Transformo ideas en aplicaciones funcionales, priorizando la experiencia del usuario 
+                            y el rendimiento con las últimas tecnologías
                         </p>
                     </div>
 
@@ -139,20 +139,22 @@ export const HomePage = () => {
                             </h2>
                             <div className="space-y-6 text-lg leading-relaxed text-gray-600 dark:text-gray-300">
                                 <p>
-                                    Soy un desarrollador frontend apasionado con más de X años de
+                                    Soy un desarrollador Full-stack apasionado con más de 3 años de
                                     experiencia creando aplicaciones web modernas y escalables. Mi
                                     enfoque se centra en la experiencia del usuario y el
-                                    rendimiento.
+                                    rendimiento, con una especialización más hacia el frontend.
                                 </p>
                                 <p>
-                                    Me especializo en React, Next.js y TailwindCSS, pero siempre
-                                    estoy explorando nuevas tecnologías para mantenerme al día con
-                                    las últimas tendencias del desarrollo web.
+                                    Me especializo en React, NextJS y TailwindCSS, pero siempre
+                                    estoy explorando nuevas tecnologías e innovando con side projects
+                                    para mantenerme al día con las últimas tendencias del desarrollo
+                                    de software.
                                 </p>
                                 <p>
-                                    Cuando no estoy programando, me gusta contribuir a proyectos
-                                    open source y compartir conocimientos con la comunidad de
-                                    desarrolladores.
+                                    Cuando no estoy programando, me gusta leer código de proyectos
+                                    open source para descubrir nuevas oportunidades de contribuir
+                                    y estar en comunidad de desarrolladores compartiendo conocimiento
+                                    y aprendiendo de los demás.
                                 </p>
                             </div>
                         </div>
@@ -178,31 +180,46 @@ export const HomePage = () => {
                             Proyectos Destacados
                         </h2>
                         <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-                            Una selección de mis trabajos más recientes y desafiantes
+                            Algunos de mis proyectos más importantes, incluyendo sistemas empresariales
+                            y desarrollos personales
                         </p>
                     </div>
 
                     <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-8">
                         <ProjectCard
-                            title="E-commerce Platform"
-                            description="Plataforma de comercio electrónico completa con carrito de compras, pagos y gestión de inventario."
-                            link="https://tu-ecommerce.com"
-                            image="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=200&fit=crop"
-                            tech={["React", "Node.js", "MongoDB", "Stripe"]}
-                        />
-                        <ProjectCard
-                            title="Dashboard Analytics"
-                            description="Dashboard interactivo para análisis de datos con gráficos en tiempo real y filtros avanzados."
-                            link="https://tu-dashboard.com"
+                            title="API de Finanzas"
+                            description="Sistema completo de gestión financiera con análisis de datos, reportes y dashboard interactivo."
+                            link="https://github.com/Juan17Informatico/finanzas-ui"
                             image="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=200&fit=crop"
-                            tech={["Next.js", "TypeScript", "Chart.js", "Tailwind"]}
+                            tech={["Laravel", "MySQL", "React", "TailwindCSS"]}
                         />
                         <ProjectCard
-                            title="Social Media App"
-                            description="Aplicación de redes sociales con chat en tiempo real, publicaciones y sistema de seguimiento."
-                            link="https://tu-social-app.com"
-                            image="https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400&h=200&fit=crop"
-                            tech={["React Native", "Firebase", "Redux", "Socket.io"]}
+                            title="Sistema de Autenticación"
+                            description="Sistema robusto de autenticación con Laravel, incluyendo roles, permisos y integración con múltiples apps."
+                            link="https://github.com/Juan17Informatico/sistema-de-autenticacion-de-usuarios-laravel"
+                            image="https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=400&h=200&fit=crop"
+                            tech={["Laravel", "JWT", "React", "PostgreSQL"]}
+                        />
+                        {/* <ProjectCard
+                            title="Aplicación de Entrenamiento"
+                            description="App para seguimiento de rutinas de ejercicio con progreso personalizado y estadísticas detalladas."
+                            link="#"
+                            image="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=200&fit=crop"
+                            tech={["React", "Firebase", "TailwindCSS"]}
+                        /> */}
+                        <ProjectCard
+                            title="Blog con React"
+                            description="Blog moderno y responsive desarrollado con React y TailwindCSS, con sistema de gestión de contenido."
+                            link="https://github.com/Juan17Informatico/blog-dev-notes"
+                            image="https://images.unsplash.com/photo-1486312338219-ce68e2c6b696?w=400&h=200&fit=crop"
+                            tech={["React", "TailwindCSS", "Node.js", "MongoDB"]}
+                        />
+                        <ProjectCard
+                            title="Proyectos Empresariales"
+                            description="Diversos sistemas y aplicaciones desarrollados en empresas, enfocados en soluciones escalables y eficientes."
+                            link="#"
+                            image="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=200&fit=crop"
+                            tech={["React", "Laravel", "Docker", "PostgreSQL", "NextJS"]}
                         />
                     </div>
                 </section>
@@ -214,7 +231,7 @@ export const HomePage = () => {
                             Tecnologías & Herramientas
                         </h2>
                         <p className="text-xl text-gray-600 dark:text-gray-300">
-                            Las tecnologías que domino y uso en mis proyectos
+                            Stack tecnológico que domino y utilizo en mis proyectos
                         </p>
                     </div>
 
@@ -244,7 +261,7 @@ export const HomePage = () => {
                         </h2>
                         <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
                             ¿Tienes un proyecto en mente? Me encantaría escuchar sobre tu idea y
-                            ayudarte a hacerla realidad.
+                            ayudarte a hacerla realidad con tecnologías modernas.
                         </p>
                     </div>
 
@@ -259,11 +276,11 @@ export const HomePage = () => {
                             <h3 className="font-semibold text-gray-900 dark:text-white mb-2">
                                 Email
                             </h3>
-                            <p className="text-gray-600 dark:text-gray-300">tuemail@example.com</p>
+                            <p className="text-gray-600 dark:text-gray-300">juancampuzano2356@gmail.com</p>
                         </a>
 
                         <a
-                            href="https://linkedin.com/in/tuusuario"
+                            href="https://www.linkedin.com/in/juan-pablo-campuzano-monsalve-17a614207"
                             target="_blank"
                             rel="noreferrer"
                             className="group p-8 bg-white dark:bg-gray-800 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 text-center hover:-translate-y-2"
@@ -278,7 +295,7 @@ export const HomePage = () => {
                         </a>
 
                         <a
-                            href="https://github.com/tuusuario"
+                            href="https://github.com/Juan17Informatico"
                             target="_blank"
                             rel="noreferrer"
                             className="group p-8 bg-white dark:bg-gray-800 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 text-center hover:-translate-y-2"
@@ -325,7 +342,7 @@ export const HomePage = () => {
                         </a>
                     </div>
                     <p className="text-sm text-gray-500 dark:text-gray-400">
-                        &copy; {new Date().getFullYear()} Tu Nombre. Todos los derechos reservados.
+                        &copy; {new Date().getFullYear()} Juan Campuzano. Todos los derechos reservados.
                     </p>
                 </div>
             </footer>
