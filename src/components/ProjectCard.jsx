@@ -1,8 +1,14 @@
 import { ExternalLink } from "lucide-react";
 
 export const ProjectCard = ({ title, description, link, image, tech = [] }) => {
+    const handleLinkClick = (e) => {
+        // Prevent default link behavior if needed
+        e.preventDefault();
+        // Optionally, you can add any additional logic here
+        window.open(link, "_blank");
+    }
     return (
-        <div className="group relative overflow-hidden rounded-2xl bg-white dark:bg-gray-800 shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+        <div onClick={handleLinkClick} className="group relative overflow-hidden rounded-2xl bg-white dark:bg-gray-800 shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
             <div className="aspect-video overflow-hidden">
                 <img
                     src={image}
