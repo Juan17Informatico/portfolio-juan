@@ -166,7 +166,9 @@ export const HomePage = () => {
                                     <div className="w-32 h-32 bg-gradient-to-br from-blue-400 to-purple-500 rounded-full mx-auto mb-4 flex items-center justify-center text-white text-4xl font-bold">
                                         TN
                                     </div>
-                                    <p className="text-gray-600 dark:text-gray-300">Tu foto aquí</p>
+                                    <p className="text-gray-600 dark:text-gray-300">
+                                        <img src="/me.webp" alt="" />
+                                    </p>
                                 </div>
                             </div>
                         </div>
